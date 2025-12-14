@@ -1,0 +1,583 @@
+        *{
+            font-family:  "Inter", sans-serif;;
+        }
+
+        .hero{
+            width: 1440px;
+            height: 798px;
+        }
+
+        .background{
+            width: 1440px;
+            height: 663px;
+            background-color: #F3FCF7;
+            border: 1px solid #F3FCF7;
+        }
+
+        .navigations ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            width: 1177px;
+            height: 41px;
+            margin-top: 34px;
+
+        }
+
+        .navigations ul{
+            display: flex;
+            width: 600px;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .navigations ul li{
+            list-style: none;
+        }
+
+        .logo p{
+            margin-top: 0px;
+            font-size: 32px;
+            width: 120px;
+            height: 39px;
+            color: #06C167;
+            font-weight: 500;
+        }
+
+        .marginclass{
+            width: 1177px;
+            height: 663px;
+            margin-left: 138px;
+        }
+
+        .herotext{
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+        }
+
+        .herotext button{
+            width: 200px;
+            height: 68px;
+            margin-top: 30px;
+            background-color: #06C167;
+            border: none;
+        }
+
+        .herotext button p{
+            color: #FFF;
+        }
+
+        .bigletter{
+            width: 533px;
+            height: 182px;
+            line-height: 0.2;
+        }
+
+        .smallletter{
+            margin-top: 40px;
+            line-height: 0.5;
+            width: 533px;
+        }
+
+        #line1,#line2{
+            font-size: 75px;
+            font-weight: 600;
+        }
+
+        #line3,#line4{
+            font-size: 16px;
+            font-weight: 400;
+            color: #1d1d1fcc;
+        }
+
+        .image1{
+            position: absolute;
+            top: 139px;
+            left: 802px;
+        }
+
+        .rating{
+            width: 230px;
+            height: 53px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: space-around;
+            background-color: #FFF;
+            position: absolute;
+            left: 700px;
+            top: 450px;
+
+        }
+
+        .rating ul li{
+            list-style: none;
+        }
+
+        .stars ul{
+            display: flex;
+            margin-top: 15px;
+            padding: 0px;
+        }
+
+        .polca{
+            position: absolute;
+            left: 1135px;
+            top: 616px;
+        }
+
+        .quality_product{
+            width: 230px;
+            height: 53px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            left: 1082px;
+            top: 342px;
+            background-color: #FFF;
+        }
+
+        .quality_product .qimage{
+            margin: 4px;
+        }
+
+        .quality_product p{
+            margin-right: 10px;
+        }
+
+        .marginclass2{
+            width: 1177px;
+            height: 663px;
+            margin-left: 138px;
+            /*border: 1px solid red;*/
+        }
+
+        .brandlogo{
+            display: flex;
+            margin-top: 40px;
+            width: 570px;
+            height: 35.84px;
+            justify-content: space-between;
+        }
+
+        .brand1,.brand2,.brand3{
+            display: flex;
+        }
+
+        .features{
+            width: 1170px;
+            height: 185px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 200px;
+            position: relative;
+        }
+
+        .feature1, .feature2, .feature3, .feature4{
+            margin-top: 55px;
+        }
+
+        .line1{
+            position: absolute;
+        }
+
+        .line2{
+            position: absolute;
+            bottom: 0px;
+        }
+
+        .benefit{
+            position: relative;
+            width: 1162px;
+            height: 608px;
+            /*border: 1px solid red;*/
+            margin-top: 132px;
+        }
+
+        .benetext1{
+            position: absolute;
+            /*border: 1px solid black;*/
+            top:97px ;
+            left: 618px;
+        }
+
+        .benetext2{
+            position: absolute;
+            width: 537px;
+            height: 146px;
+            right: 5px;
+            top: 153px;
+            /*border: 1px solid black;*/
+            line-height: 0.3;
+        }
+
+        .benetext2 p{
+            font-size: 60px;
+            font-weight: 600px;
+            margin-top: 23px;
+        }
+
+        .ticks ul{
+            width: 537px;
+            height: 200px;
+            position: absolute;
+            top: 300px;
+            right: 5px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ticks ul li{
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .benepolcadot{
+            position: absolute;
+            top: 153px;
+            left: 550px;
+        }
+
+        .ourstars{
+            height: 608px;
+            width: 1162px;
+            margin-top: 132px;
+            /*border: 1px solid black;*/
+            position: relative;
+        }
+
+        .ourstars .starpic{
+            position: absolute;
+            left: 620px;
+        }
+
+        .ourstars .numbers{
+            display: flex;
+            width: 570px;
+            justify-content: space-between;
+            margin-top: 26px;
+        }
+
+        .ourstars .num1,.num2,.num3{
+            line-height: 0.4;
+        }
+
+        .starheading{
+            width: 570px;
+            height: 146px;
+            line-height: 0.5;
+            margin-top: 40px ;
+            z-index: 1;
+            position: relative;
+        }
+
+        .starheading p{
+            font-size: 60px;
+            font-weight: 500px;
+            margin-top: 13px;
+        }
+
+        .ourstars .numbers p{
+            font-size: 40px;
+            font-weight: 600;
+            color: #06C167;
+            margin-top: 40px;
+        }
+
+        .starbutton{
+            margin-top: 50px;
+        }
+
+        .starbutton button{
+            background-color: #06C167;
+            border: none;
+            width: 233px;
+            height: 79px;
+        }
+
+        .startext{
+            margin-top: 70px;
+        }
+
+        .starbutton{
+            margin-top: 70px;
+            border: none;
+        }
+
+        .starpolca{
+            position: absolute;
+            left: -60px;
+            z-index: 0;
+        }
+
+        .featuresall{
+            width: 1170px;
+            height: 766px;
+            position: relative;
+            margin-top: 150px;
+            
+        }
+
+        .featurebox{
+            height: 585px;
+            width: 1170px;
+            display: flex;
+            position: absolute;
+            bottom: 0px;
+        }
+
+        .headtext .head2{
+            font-weight: 500;
+            font-size: 60px;
+            position: absolute;
+            left: 376px;
+        }
+
+        .headtext{
+            
+            height: 181px;
+            width: 1170px;
+            position: relative;
+
+        }
+
+        .headtext .head1{
+            position: absolute;
+            left: 541px;
+        }
+
+        .featurebox .ffeature1,.ffeature3, .ffeature5, .ffeature7{
+            position: absolute;
+        }
+
+        .ffeature1{
+            bottom: 288px;
+        }
+
+        .ffeature2{
+            left: 293px;
+            bottom: 290px;
+            background-color: #F3FCF7;
+            border: 2px solid #06C167;
+        }
+
+        .ffeature3{
+            left: 588px;
+            bottom: 287px;
+        }
+
+        .ffeature4{
+            left: 879px;
+            bottom: 290px;
+            background-color: #F3FCF7;
+        }
+
+        .ffeature5{
+            bottom: 0px;
+            background-color: #F3FCF7;
+        }
+
+        .ffeature6{
+            bottom: 0px;
+            left: 293px;
+        }
+
+        .ffeature7{
+            bottom: 0px;
+            left: 588px;
+            background-color: #F3FCF7;
+        }
+
+        .ffeature8{
+            bottom: 0px;
+            left: 879px;
+        }
+
+        .featurebox .ffeature2,.ffeature4,.ffeature6, .ffeature8{
+            height: 292.5px;
+            width: 292.5px;
+            border: 1px solid green;
+            position: absolute;
+        }
+
+        .populars{
+            width: 1170px;
+            height: 619px;
+            margin-top: 180px;
+            position: relative;
+        }
+
+        .ptext2{
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 5%;
+            margin-left: -3px;
+
+        }
+
+        .allfruits{
+            height: 445px ;
+            width: 1170px;
+            position: absolute;
+            bottom: 0px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .fruits1, .fruits2, .fruits3, .fruits4{
+            height: 445px;
+            width: 270px;
+            border: 2px solid #06C167;
+        } 
+
+        .fruits1 img, .fruits2 img, .fruits3 img, .fruits4 img{
+            margin-top: 25px;
+            margin-left: 40px;
+        }
+
+        .starspopular{
+            display: flex;
+            width: 200px;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        .starspopular ul{
+            display: flex;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+        }
+
+        .starspopular ul li{
+            list-style: none;
+        }
+
+        .fruits1text{
+            font-weight: 400;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        .fruits1dollar{
+            font-weight: 400;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .fruits1dollar p{
+            color: #06C167;
+            margin: 0 auto;
+        }
+
+        .fruits1button button{
+            width: 177px;
+            height: 57px;
+            background-color: #F3FCF7;
+            border: 2px solid #06C167;
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-around;
+            margin-left: 49px;
+        }
+
+        .fruits1button button i{
+            margin-top: 22px;
+        }
+
+        .fruits1button button p{
+            margin-top: 18px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #06C167;
+            margin-right: 0px;
+        }
+
+        .last_photo{
+            margin-top: 150px;
+        }
+
+
+        .footer{
+            width: 1170px;
+            height: 433px;
+            margin-top: 100px;
+            /*border: 1px solid black;*/
+            left: 0px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer1{
+            width: 284px;
+            height: 209px;
+            /*border: 1px solid greenyellow;*/
+        }
+
+        .footertext1{
+            font-weight: 500;
+            font-size: 32px;
+            color: #06C167;
+            margin-top: 0px;
+        }
+
+        .footerlogo{
+            margin-top: 50px;
+        }
+
+        .footer2{
+            width: 107px;
+            height: 209px;
+            /*border: 1px solid black;*/
+        }
+
+        .abouttext1{
+            font-weight: 500;
+            font-size: 24px;
+            margin-top: 0px;
+            margin-bottom: 48px;
+        }
+
+        .footer4{
+            width: 338px;
+            height: 209px;
+            /*border: 1px solid tomato;*/
+        }
+
+        .touch{
+            font-weight: 400;
+            font-size: 24px;
+            margin-top: 0px;
+        }
+
+        #mail1{
+            width: 205px;
+            height: 50px;
+            background-color: #F0F1Ec;
+            border: none;
+            margin-right: 5px;
+        }
+
+        .subscribe{
+            width: 118px;
+            height: 50px;
+            background-color: #06C167;
+            border: none;
+        }
+
+        .touch2{
+            margin-bottom: 50px;
+            margin-top: 38px;
+        }

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        *{box-sizing: border-box;
+        font-family: "Inter", sans-serif;}
+
+        .container{
+            background-color: #F3FCF7;
+            margin-top: 0px;
+            border: 1px solid #F3FCF7;
+        }
+
+        .landingpage{
+            margin: 35px;
+        }
+
+        .logo{
+            color: #06C167;
+            font-size: 32px;
+            font-weight: 500;
+        }
+
+        .logo p{
+            margin: 0px;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            /*border: 1px solid gray;*/
+        }
+
+        .navigations ul{
+            display: flex;
+            justify-content: space-between;
+            width: 600px;
+        }
+
+        .navigations ul li{
+            list-style: none;
+        }
+
+        .navigations ul li a{
+            text-decoration: none;
+            color: #1D1D1F;
+        }
+
+        body{
+            font-family: Inter;
+            /*border: 3px solid rgb(218, 19, 19);*/
+        }
+
+        .herobody{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .heropic{
+            margin-top: 53px;
+            margin-right: 40px;
+        }
+
+       .herotext{
+            width: 533px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            font-size: 75px;
+            font-weight: 600;
+            margin-top: 85px;
+        }
+
+        .herotext p{
+            margin: 0px;
+            line-height: 1.5;
+        }
+
+        #herotext3, #herotext4
+        {
+            font-size: 16px;
+            font-weight: 400;
+            color: #1d1d1fd5;
+        }
+
+        .hero_button{
+            padding: 14px;
+        }
+  
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+    <div class="landingpage">
+
+
+        <!--Navigationbar starts here-->
+
+
+        <div class="navbar">
+
+
+            <div class="logo"><p>Foodies</p></div>
+
+
+            <div class="navigations">
+                <ul>
+                    <li><a style="color: #06C167;" href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Service us</a></li>
+                    <li><a href="#">Our Company</a></li>
+                    <li><a href="#">pages</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <!--Navigation bar ends here-->
+
+        <!--Hero body starts here-->
+
+        <div class="herobody">
+            <div class="herotext">
+                <p id="herotext1">We're Serious</p>
+                <p id="herotext2">For Food</p>
+                <p id="herotext3">We Strive to provide a space where guests can connect with</p>
+                <p id="herotext4">Themselves and explore the full potential, offering a safe place.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
